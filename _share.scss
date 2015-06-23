@@ -1,0 +1,255 @@
+@import "compass/css3/border-radius";
+@import "compass/css3/transition";
+@import "compass/css3/opacity";
+
+
+
+$facebook-blue: #3b5998;
+$twitter-blue: #55ACEE;
+$google-orange: #dd4c39;
+$linkedin-blue: #0077b5;
+$pinterest-red: #cb2127;
+
+.thinkfaster .share-container {
+  margin-top: 10px;
+  min-height: 21px;
+  margin-bottom: 10px;
+}
+
+.thinkfaster .share-container .share-icon {
+  display: inline;
+  line-height: normal;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: medium;
+  letter-spacing: normal;
+
+}
+
+.thinkfaster .share-container .share-icon.no-count .genericon {
+  border-radius: 2px;
+  min-width: 50px;
+}
+
+.thinkfaster .share-container .share-icon.no-count .count {
+  display: none;
+}
+
+.thinkfaster .share-container .share-icon:hover {
+  cursor: pointer;
+}
+
+.share-contaner .facebook-share {
+  background-color: white;
+
+}
+
+.thinkfaster .share-container .share-icon a {
+  outline: none;
+  border: 0px;
+  text-decoration: none;
+}
+
+.thinkfaster .share-container .linkedin-share .count,
+.thinkfaster .share-container .google-share .count,
+.thinkfaster .share-container .twitter-share .count,
+.thinkfaster .share-container .pinterest-share .count,
+.thinkfaster .share-container .facebook-share .count {
+  color: $facebook-blue;
+  background-color: white;
+  border: 1px solid $facebook-blue;
+  display: inline-block;
+  // padding-top: 1px;
+  // padding-bottom: 1px;
+  margin-left: -5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  @include border-radius(0px 3px 3px 0px);
+  @include transition(all ease-in-out 200ms);
+  font-family: 'Arial';
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  height: 18px;
+}
+
+.thinkfaster .share-container .twitter-share .count::selection,
+.thinkfaster .share-container .twitter-share .count {
+  color: $twitter-blue;
+  border: 1px solid $twitter-blue;
+}
+
+.thinkfaster .share-container .count div {
+  position: relative;
+  top: 1px;
+}
+
+.thinkfaster .share-container .google-share .count::selection,
+.thinkfaster .share-container .google-share .count {
+  color: $google-orange;
+  border: 1px solid $google-orange;
+}
+
+.thinkfaster .share-container .linkedin-share .count::selection,
+.thinkfaster .share-container .linkedin-share .count {
+  color: $linkedin-blue;
+  border: 1px solid $linkedin-blue;
+}
+
+.thinkfaster .share-container .pinterest-share .count::selection,
+.thinkfaster .share-container .pinterest-share .count {
+  color: $pinterest-red;
+  border: 1px solid $pinterest-red;
+}
+
+.thinkfaster .share-container .genericon:before {
+  font: normal 14px/1 Genericons;
+}
+
+.thinkfaster .share-container {
+  // word-wrap: normal;
+  // font-family: "Arial";
+  // font-size: 10px;
+
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  height: 21px;
+  letter-spacing: 0.30px;
+  line-height: 25px;
+  word-wrap: normal;
+}
+
+.thinkfaster .share-container .share-icon div {
+  font-size: 14px;
+  vertical-align: bottom;
+}
+
+.thinkfaster .share-container .count,
+.thinkfaster .share-container .genericon {
+  display: inline-block;
+}
+
+.thinkfaster .share-container .genericon-pinterest,
+.thinkfaster .share-container .genericon-linkedin,
+.thinkfaster .share-container .genericon-googleplus-alt,
+.thinkfaster .share-container .genericon-twitter,
+.thinkfaster .share-container .genericon-facebook-alt {
+  color: white;
+  background-color: $facebook-blue;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  @include border-radius(3px 0px 0px 3px);
+  font-size: 14px;
+  padding-right: 4px;
+}
+
+.thinkfaster .share-container .genericon-pinterest {
+  background-color: $pinterest-red;
+}
+
+.thinkfaster .share-container .genericon-linkedin {
+  background-color: $linkedin-blue;
+}
+
+.thinkfaster .share-container .genericon-twitter {
+  background-color: $twitter-blue;
+}
+
+.thinkfaster .share-container .genericon-googleplus-alt {
+  background-color: $google-orange;
+}
+
+.thinkfaster .share-container .share-icon:hover .count {
+  background-color: $facebook-blue;
+  color: white;
+}
+
+.thinkfaster .share-container .pinterest-share:hover .count {
+  background-color: $pinterest-red;
+}
+
+.thinkfaster .share-container .twitter-share:hover .count {
+  background-color: $twitter-blue;
+}
+
+.thinkfaster .share-container .google-share:hover .count {
+  background-color: $google-orange;
+}
+
+.thinkfaster .share-container .linkedin-share:hover .count {
+  background-color: $linkedin-blue;
+}
+
+.thinkfaster .share-container .share-icon:hover .share-text {
+  width: 40px;
+  @include opacity(1);
+  padding-left: 5px;
+}
+
+.thinkfaster a::selection,
+.thinkfaster div::selection {
+  background: transparent;
+  color: white;
+}
+
+.thinkfaster .share-container .share-text {
+  display: inline-block;
+  font-weight: bold;
+  padding: 0px;
+  width: 0px;
+  margin-left: 0px;
+  background-color: $facebook-blue;
+  color: white;
+  font-size: 14px;
+  @include transition(all ease-in-out 200ms);
+  @include opacity(0);
+  font-family: 'Arial';
+  position: relative;
+  top: 0px;
+}
+
+
+.thinkfaster .share-container .share-icon a {
+  color: #000;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.thinkfaster .share-container .facebook-share .share-text {
+  background-color: $facebook-blue;
+}
+
+.thinkfaster .share-container .twitter-share .share-text {
+  background-color: $twitter-blue;
+}
+
+.thinkfaster .share-container .google-share .share-text {
+  background-color: $google-orange;
+}
+
+.thinkfaster .share-container .linkedin-share .share-text {
+  background-color: $linkedin-blue;
+}
+
+.thinkfaster .share-container .pinterest-share .share-text {
+  background-color: $pinterest-red;
+}
+
+.thinkfaster .share-container .line-break {
+  display: none;
+}
+
+@media screen and (max-width: 420px) {
+  .thinkfaster .share-container .line-break {
+    display: block;
+    height: 3px;
+  }
+
+  .thinkfaster .share-container {
+    margin-bottom: 30px;
+  }
+
+}
