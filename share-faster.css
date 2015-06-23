@@ -1,0 +1,284 @@
+/* line 13, _share.scss */
+.thinkfaster .share-container {
+  margin-top: 10px;
+  min-height: 21px;
+  margin-bottom: 10px;
+}
+
+/* line 19, _share.scss */
+.thinkfaster .share-container .share-icon {
+  display: inline;
+  line-height: normal;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: medium;
+  letter-spacing: normal;
+}
+
+/* line 29, _share.scss */
+.thinkfaster .share-container .share-icon.no-count .genericon {
+  border-radius: 2px;
+  min-width: 50px;
+}
+
+/* line 34, _share.scss */
+.thinkfaster .share-container .share-icon.no-count .count {
+  display: none;
+}
+
+/* line 38, _share.scss */
+.thinkfaster .share-container .share-icon:hover {
+  cursor: pointer;
+}
+
+/* line 42, _share.scss */
+.share-contaner .facebook-share {
+  background-color: white;
+}
+
+/* line 47, _share.scss */
+.thinkfaster .share-container .share-icon a {
+  outline: none;
+  border: 0px;
+  text-decoration: none;
+}
+
+/* line 53, _share.scss */
+.thinkfaster .share-container .linkedin-share .count,
+.thinkfaster .share-container .google-share .count,
+.thinkfaster .share-container .twitter-share .count,
+.thinkfaster .share-container .pinterest-share .count,
+.thinkfaster .share-container .facebook-share .count {
+  color: #3b5998;
+  background-color: white;
+  border: 1px solid #3b5998;
+  display: inline-block;
+  margin-left: -5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  -moz-border-radius: 0px 3px 3px 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px 3px 3px 0px;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  font-family: 'Arial';
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  height: 18px;
+}
+
+/* line 77, _share.scss */
+.thinkfaster .share-container .twitter-share .count::selection,
+.thinkfaster .share-container .twitter-share .count {
+  color: #55ACEE;
+  border: 1px solid #55ACEE;
+}
+
+/* line 83, _share.scss */
+.thinkfaster .share-container .count div {
+  position: relative;
+  top: 1px;
+}
+
+/* line 88, _share.scss */
+.thinkfaster .share-container .google-share .count::selection,
+.thinkfaster .share-container .google-share .count {
+  color: #dd4c39;
+  border: 1px solid #dd4c39;
+}
+
+/* line 94, _share.scss */
+.thinkfaster .share-container .linkedin-share .count::selection,
+.thinkfaster .share-container .linkedin-share .count {
+  color: #0077b5;
+  border: 1px solid #0077b5;
+}
+
+/* line 100, _share.scss */
+.thinkfaster .share-container .pinterest-share .count::selection,
+.thinkfaster .share-container .pinterest-share .count {
+  color: #cb2127;
+  border: 1px solid #cb2127;
+}
+
+/* line 106, _share.scss */
+.thinkfaster .share-container .genericon:before {
+  font: normal 14px/1 Genericons;
+}
+
+/* line 110, _share.scss */
+.thinkfaster .share-container {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  height: 21px;
+  letter-spacing: 0.30px;
+  line-height: 25px;
+  word-wrap: normal;
+}
+
+/* line 124, _share.scss */
+.thinkfaster .share-container .share-icon div {
+  font-size: 14px;
+  vertical-align: bottom;
+}
+
+/* line 129, _share.scss */
+.thinkfaster .share-container .count,
+.thinkfaster .share-container .genericon {
+  display: inline-block;
+}
+
+/* line 134, _share.scss */
+.thinkfaster .share-container .genericon-pinterest,
+.thinkfaster .share-container .genericon-linkedin,
+.thinkfaster .share-container .genericon-googleplus-alt,
+.thinkfaster .share-container .genericon-twitter,
+.thinkfaster .share-container .genericon-facebook-alt {
+  color: white;
+  background-color: #3b5998;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  -moz-border-radius: 3px 0px 0px 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px 0px 0px 3px;
+  font-size: 14px;
+  padding-right: 4px;
+}
+
+/* line 149, _share.scss */
+.thinkfaster .share-container .genericon-pinterest {
+  background-color: #cb2127;
+}
+
+/* line 153, _share.scss */
+.thinkfaster .share-container .genericon-linkedin {
+  background-color: #0077b5;
+}
+
+/* line 157, _share.scss */
+.thinkfaster .share-container .genericon-twitter {
+  background-color: #55ACEE;
+}
+
+/* line 161, _share.scss */
+.thinkfaster .share-container .genericon-googleplus-alt {
+  background-color: #dd4c39;
+}
+
+/* line 165, _share.scss */
+.thinkfaster .share-container .share-icon:hover .count {
+  background-color: #3b5998;
+  color: white;
+}
+
+/* line 170, _share.scss */
+.thinkfaster .share-container .pinterest-share:hover .count {
+  background-color: #cb2127;
+}
+
+/* line 174, _share.scss */
+.thinkfaster .share-container .twitter-share:hover .count {
+  background-color: #55ACEE;
+}
+
+/* line 178, _share.scss */
+.thinkfaster .share-container .google-share:hover .count {
+  background-color: #dd4c39;
+}
+
+/* line 182, _share.scss */
+.thinkfaster .share-container .linkedin-share:hover .count {
+  background-color: #0077b5;
+}
+
+/* line 186, _share.scss */
+.thinkfaster .share-container .share-icon:hover .share-text {
+  width: 40px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  padding-left: 5px;
+}
+
+/* line 192, _share.scss */
+.thinkfaster a::selection,
+.thinkfaster div::selection {
+  background: transparent;
+  color: white;
+}
+
+/* line 198, _share.scss */
+.thinkfaster .share-container .share-text {
+  display: inline-block;
+  font-weight: bold;
+  padding: 0px;
+  width: 0px;
+  margin-left: 0px;
+  background-color: #3b5998;
+  color: white;
+  font-size: 14px;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  font-family: 'Arial';
+  position: relative;
+  top: 0px;
+}
+
+/* line 215, _share.scss */
+.thinkfaster .share-container .share-icon a {
+  color: #000;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+/* line 221, _share.scss */
+.thinkfaster .share-container .facebook-share .share-text {
+  background-color: #3b5998;
+}
+
+/* line 225, _share.scss */
+.thinkfaster .share-container .twitter-share .share-text {
+  background-color: #55ACEE;
+}
+
+/* line 229, _share.scss */
+.thinkfaster .share-container .google-share .share-text {
+  background-color: #dd4c39;
+}
+
+/* line 233, _share.scss */
+.thinkfaster .share-container .linkedin-share .share-text {
+  background-color: #0077b5;
+}
+
+/* line 237, _share.scss */
+.thinkfaster .share-container .pinterest-share .share-text {
+  background-color: #cb2127;
+}
+
+/* line 241, _share.scss */
+.thinkfaster .share-container .line-break {
+  display: none;
+}
+
+@media screen and (max-width: 420px) {
+  /* line 246, _share.scss */
+  .thinkfaster .share-container .line-break {
+    display: block;
+    height: 3px;
+  }
+
+  /* line 251, _share.scss */
+  .thinkfaster .share-container {
+    margin-bottom: 30px;
+  }
+}
