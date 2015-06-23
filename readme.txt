@@ -8,14 +8,14 @@ Stable tag: 2.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The fastest way to share your content, and encourage people to read your content based on the share counts. Optimized for page load speed.
+The fastest way to share your content. Buttons optimized for page load speed. Encourage people to read your blog with share counts.
 
 == Description ==
 
-Sharing plugin, optimized for page load speed.  We consolidate all icons and counts as much as possible to
-minimize network requests.
+Enable all the major share buttons.
+Optimized for page load speed.  We consolidate all icons and counts to minimize network requests.
 
-Enable sharing buttons with counts on your blog.
+Works with the following social networks:
 
 * Facebook
 * Twitter
